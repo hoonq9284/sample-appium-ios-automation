@@ -1,0 +1,18 @@
+import os
+BASE_DIR = os.getcwd()
+
+
+# BasePage
+WAIT_TIME = 10
+PASS_SCREENSHOT = True
+IMAGE_SCALE_NUMERICAL = 0.40
+
+# appium
+APP_FILE = "app.ipa"
+URL = 'http://127.0.0.1:4723'
+PLATFORM_NAME = "ios"
+PLATFORM_VERSION = "17.4"
+AUTOMATION_NAME = "XCUITest"
+UDID = "FA44E1AD-96F3-4ED7-9076-12F644524F14"
+BUNDLE_ID = "com.apple.mobilesafari"
+XCODE_ORG_ID = "G476VT3T47"
